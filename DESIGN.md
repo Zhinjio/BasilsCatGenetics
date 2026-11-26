@@ -138,8 +138,13 @@ Any advancements go in the shared Zhinjio tab.
 2. Bray's 8 village coats.
 3. Art for generated coats, in groups (dilute calicos and white spotting first).
 
-## To check before building
+## Checked in the 26.3 code (2026-11-26)
 
-- Whether a `cat_variant` can be registered so it never spawns naturally.
-- How a 26.3 `cat_variant` names its kitten texture.
-- What happens to cats wearing a mod coat if the mod is removed.
+- A `cat_variant` with an empty `spawn_conditions` list has no selectors, so `PriorityProvider.select` never picks
+  it: our generated coats never spawn naturally.
+- Each `cat_variant` names its kitten texture itself (`baby_asset_id`), next to the adult `asset_id`.
+- A saved cat whose variant id no longer exists loads quietly with the default variant (`black`, the tuxedo):
+  `VariantUtils.readVariant` returns empty for an unknown id. So removing the mod turns its coats into tuxedos
+  rather than breaking the world. Still to confirm on staging.
+- Vanilla breeding (`Cat.getBreedOffspring`) copies one parent's variant at random, and `Cat.canMate` only checks
+  that both are tame; those are the two hooks for our breeding rules.

@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "basils_cat_genetics",
+	"version": "${version}",
+	"name": "Basil's Cat Genetics",
+	"description": "Realistic coat genetics for cats.",
+	"authors": ["Zhinjio", "Basil"],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/basils-cat-genetics",
+		"sources": "https://github.com/Zhinjio/BasilsCatGenetics",
+		"issues": "https://github.com/Zhinjio/BasilsCatGenetics/issues"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["io.github.zhinjio.basilscatgenetics.BasilsCatGenetics"]
+	},
+	"mixins": ["basils_cat_genetics.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

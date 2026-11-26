@@ -3,3 +3,13 @@ vanilla/
 # preview output
 preview/
 __pycache__/
+# gradle and fabric
+.gradle/
+build/
+out/
+run/
+.idea/
+*.iml
+.vscode/
+bin/
+hs_err_*.log
