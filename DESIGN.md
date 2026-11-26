@@ -3,9 +3,10 @@
 Status: draft, 2026-11-26. Nothing is built yet. Basil designs the genetics and the art and has final say on both,
 and on all player-facing wording. Zhinjio builds the mod.
 
-Source of truth for the genes: `GeneSheet.csv` (Basil's master sheet, 2026-11-24). Where this file and the sheet
-disagree, the sheet wins. One known fix is pending in the sheet: Calico and Jellie read "Ws/W" on the W locus and
-should be high white.
+Source of truth for the genes: `GeneSheet.csv` (Basil's master sheet, updated 2026-11-26). Where this file and the
+sheet disagree, the sheet wins.
+
+Open question for Basil: Jellie changed from high white to low white (Ws/w) in the 2026-11-26 sheet. Intended?
 
 ## Goal
 
@@ -65,12 +66,12 @@ Each result maps to one texture name. The vanilla coats keep their own textures:
 | black (Tuxedo) | o, B, D, a/a, I, Ws/w, C |
 | british_shorthair | o, B, d/d, Dm, a/a, I, w/w, C |
 | calico | O/o, B, D, a/a, I, Ws/Ws, C |
-| jellie | o, B, d/d, Dm, A, T, I, Wb, Ws/Ws, C |
+| jellie | o, B, d/d, Dm, A, T, I, Wb, Ws/w, C |
 | persian | A, T, wb/wb, w/w, C |
 | ragdoll | o, B, d/d, dm/dm, a/a, i/i, Ws/w, c/c |
 | red | O, D, A, T, I, Wb, Ws/w, C |
 | siamese | o, B, D, a/a, I, w/w, c/c |
-| tabby | o, B, D, A, T, I, Wb, Ws/w, C |
+| tabby | o, b/b or b/b1 (chocolate), D, A, T, I, Wb, Ws/w, C |
 | white | W |
 
 Every other combination gets a generated name, built the same way each time (for example
