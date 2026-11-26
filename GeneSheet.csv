@@ -1,0 +1,20 @@
+Name ,Source,O locus (red),B locus (Black base),D locus (Dilution),Dm locus (Dilution Modifier),A Locus (Agouti),"M locus (Agouti Modifier, Tabby)",I locus (Inhibitor),"Wb locus (Agouti Modifier, Widebanding)",W locus (White spotting),C Locus (Colorpoint),Bt locus (Bobtail),H Locus (Hairless),Notes:
+"""Calico""",Minecraft,O/o,B/hidden,D/hidden,hidden/hidden (because of D locus),a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),Ws/W,C/hidden,Bt/hidden,H/hidden,
+"""Black""",Minecraft,o/o or o/y,B/hidden,D/hidden,hidden/hidden (because of D locus),a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),w/w,C/hidden,Bt/hidden,H/hidden,
+"""Jellie""",Minecraft,o/o or o/y,B/hidden,d/d,Dm/hidden,A/hidden,T/hidden ,I/hidden,Wb/hidden,Ws/W,C/hidden,Bt/hidden,H/hidden,
+"""Red""",Minecraft,O/O or O/y,hidden/hidden (because of full red on O locus,D/hidden,hidden/hidden (because of D locus),A/hidden,T/hidden,I/hidden,Wb/hidden,Ws/w,C/hidden,Bt/hidden,H/hidden,
+"""Tuxedo""",Minecraft,o/o or o/y,B/hidden,D/hidden,hidden/hidden (because of D locus),a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),Ws/w,C/hidden,Bt/hidden,H/hidden,
+"""White""",Minecraft,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,W/hidden,hidden/hidden,Bt/hidden,H/hidden,"All ""hiddens"" in this row are caused by the ""W"" on the W locus, which hides every other trait. "
+"""Tabby""",Minecraft,o/o or o/y,B/hidden,D/hidden,hidden/hidden (because of D locus),A/hidden,T/hidden,I/hidden,Wb/hidden,Ws/w,C/hidden,Bt/hidden,H/hidden,
+"""Ragdoll""",Minecraft,o/o or o/y,B/hidden,d/d,dm/dm,a/a,hidden/hidden (because of A locus),i/i,hidden/hidden (because of A locus),Ws/w,c/c,Bt/hidden,H/hidden,
+"""Persian""",Minecraft,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,A/hidden,T/hidden,hidden/hidden,wb/wb,w/w,C/hidden,Bt/hidden,H/hidden,"All ""hiddens"" in this row are caused by wb/wb homozygosity. This is the flat-faces cat model."
+"""British Shorthair""",Minecraft,o/o or o/y,B/hidden,d/d,Dm/hidden,a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),w/w,C/hidden,Bt/hidden,H/hidden,
+"""Siamese""",Minecraft,o/o or o/y,B/hidden,D/hidden,hidden/hidden (because of D locus),a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),w/w,c/c,Bt/hidden,H/hidden,
+"""Bengal""",Bray's Cat Overhaul,o/o or o/y,b/b or b1,D/hidden,hidden/hidden (because of D locus),A/hidden,be/be,I/hidden,Wb/hidden,w/w,C/hidden,Bt/hidden,H/hidden,
+"""Bobtail""",Bray's Cat Overhaul,o/o or o/y,b1/b1,D/hidden,hidden/hidden (because of D locus),A/hidden,T/hidden,I/hidden,Wb/hidden,w/w,C/hidden,bt/bt,H/hidden,"This cat has the shortened tail, caused by homozygous ""bt"" on the ""Bobtail"" locus."
+"""Egyptian Mau'",Bray's Cat Overhaul,o/o or o/y,B/hidden,D/hidden,hidden/hidden (because of D locus),A/hidden,be/be,i/i,Wb/hidden,w/w,C/hidden,Bt/hidden,H/hidden,
+"""Gray Tabby""",Bray's Cat Overhaul,o/o or o/y,B/hidden,d/d,Dm/hidden,A/hidden,T/hidden,I/hidden,Wb/hidden,Ws/w,C/hidden,Bt/hidden,H/hidden,
+"""Maine Coon""",Bray's Cat Overhaul,o/o or o/y,B/hidden,D/hidden,hidden/hidden (because of D locus),A/hidden,T/hidden,I/hidden,Wb/hidden,w/w,C/hidden,Bt/hidden,H/hidden,
+"""Russian Blue""",Bray's Cat Overhaul,o/o or o/y,B/hidden,d/d,Dm/hidden,a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),w/w,C/hidden,Bt/hidden,H/hidden,
+"""Sphynx""",Bray's Cat Overhaul,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,hidden/hidden,Bt/hidden,ha/ha,"All ""hiddens"" in this row are caused by homozygous ""ha"" allele, which forces this specific sphynx texture."
+"""Tortoiseshell""",Bray's Cat Overhaul,O/o,B/hidden,D/hidden,hidden/hidden (because of D locus),a/a,hidden/hidden (because of A locus),I/hidden,hidden/hidden (because of A locus),w/w,C/hidden,Bt/hidden,H/hidden,

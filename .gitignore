@@ -1,0 +1,5 @@
+# Mojang textures, kept locally only
+vanilla/
+# preview output
+preview/
+__pycache__/
